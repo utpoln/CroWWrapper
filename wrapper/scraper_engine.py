@@ -149,7 +149,7 @@ class ScraperEngine:
         
         return data
 
-# --- PUBLIC FUNCTIONS ---
+
 
 async def run_scraper(wrapper_file_name, target_url):
     if not os.path.isabs(wrapper_file_name):

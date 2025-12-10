@@ -85,10 +85,20 @@ Install Playwright browsers:
     ├── manage.py
     └── README.md
 
-## 🛡️ Environment Variables
+## 🛡️ Environment Variables (Optional / Future Use)
 
-    DJANGO_SECRET_KEY=your_key
-    OPENAI_API_KEY=your_key
+This project includes a `.env.example` file to show how environment variables **can be configured**.
+
+- `DJANGO_SECRET_KEY` → for securely configuring Django settings  
+- `OPENAI_API_KEY` → for integrating OpenAI API calls in future modules  
+
+### How to prepare for future use
+
+1. Copy `.env.example` to `.env`  
+
+```bash
+cp .env.example .env
+
 
 Add to `.gitignore`:
 
