@@ -85,7 +85,7 @@ Install Playwright browsers:
     ├── manage.py
     └── README.md
 
-## 🛡️ Environment Variables (Optional / Future Use)
+## 🛡️ Environment Variables
 
 This project includes a `.env.example` file to show how environment variables **can be configured**.
 
